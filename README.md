@@ -21,18 +21,18 @@ perl version: 5.18.0<br>
 * Encode
 
 #### Introduction
-```
+`
 $ git clone
 $ vi etc/config.pl
-```
+`
 Please write the API keys of Twitter Application.
 
 ## Function
 #### random_twitter_week [day]
-```
+`
 # 1:mon 2:tue 3:wed 4:thurs 5:fri 6:sat 7:sun
 perl bin/run.pl random_twitter_week 3
-```
+`
 Randam twitter week to select a word to search for the category that has been set from wikipedia.<br>
 Chosen words by image search you tweet to fit the sentence for the day of the week to get the url.<br>
 
